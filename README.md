@@ -1,6 +1,8 @@
 # Visualizing MobilityDB data using QGIS
 The work presented here was carried out as part of an MA1 project at the ULB. It attempts to explore and compare different ways to visualize MobilityDB data using QGIS, a desktop application that can be used to view, edit and analyze geospatial data.
 
+A report with the detailed information is available [here](https://docs.mobilitydb.com/pub/MobilityDB-QGIS.pdf))
+
 ## Problem description
 
 The goal is to be able to display MobilityDB data using QGIS, for example, moving points on a 2D plane. Since MobilityDB introduces new data types to account for its temporal dimension, it is not possible to simply "link" a temporal geometry column from the database to a QGIS layer. To display such data, we need to transform it into types QGIS recognizes. To do the actual visualization, we can make use of QGIS's temporal controller. This tool allows for the creation of animations (an animation frame contains a set of features during a given time range) and introduces a way to filter which features in a layer are shown depending on one or several time attributes. 
