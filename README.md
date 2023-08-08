@@ -1,7 +1,7 @@
 # Visualizing MobilityDB data using QGIS
 The work presented here was carried out as part of an MA1 project at the ULB. It attempts to explore and compare different ways to visualize MobilityDB data using QGIS, a desktop application that can be used to view, edit and analyze geospatial data.
 
-A report with the detailed information is available [here](https://docs.mobilitydb.com/pub/MobilityDB-QGIS.pdf))
+A report with the detailed information is available [here](https://docs.mobilitydb.com/pub/MobilityDB-QGIS.pdf)
 
 ## Problem description
 
